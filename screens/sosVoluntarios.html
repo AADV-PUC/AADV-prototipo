@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -16,11 +16,13 @@
     Conectado como: <br>
     José Gabriel
   </header>
-  <button onclick="mensagensLeitura()"><small>Hoje<br>De: </small> Coordenação AADV</button>
-  <button onclick="mensagensLeitura()"><small>Ontem<br>De: </small> Coordenação AADV</button>
-  <button class="voltar" onclick="voltar('mensagens')">Voltar</button>
-  <button class="voltar" onclick="voltar('inicial')">Tela inicial</button>
+  <div class="area-de-texto" style="text-align: center;">Lista de voluntários</div>
+  <button onclick="desativado()"><small>Ligar para</small><br>José da Silva</button>
+  <button onclick="desativado()"><small>Ligar para</small><br>Maria de Souza</button>
+  <button onclick="desativado()"><small>Ligar para</small><br>Pedro José Silveira</button>
+  
+  <button class="voltar" onclick="voltar('inicial')">Voltar</button>
 </div>
-<script src="nav.js"></script>
+<script src="../scripts/nav.js"></script>
 </body>
 </html>
