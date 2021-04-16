@@ -1,0 +1,56 @@
+body{
+    font-family: 'Be Vietnam', sans-serif;
+    background-color: #006CB9;
+    margin: 0px;
+    color: white;
+  }
+  .container{
+    margin-top: 120px;
+    width: 100%;
+    height: 100vh;
+  }
+  header{
+    top: 0px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 120px;
+    background-color: #2F2F2F;
+    text-align: right;
+  }
+
+  button{
+    margin: 15px 0px 0px 0px;
+    color: white;
+    border-width: 0px;
+    border-radius: 0px;
+    width: 100%;
+    height: 114px;
+    background-color: #0C4EA0;
+    font-style: regular;
+    font-size: 18pt;
+  } 
+
+  .area-de-texto{
+    padding: 15px;
+    margin: 15px 0px 0px 0px;
+    color: white;
+    border-width: 0px;
+    border-radius: 0px;
+    background-color: #0C4EA0;
+    font-style: regular;
+    font-size: 18pt;
+    text-align: justify;
+  } 
+  
+  .voltar{
+    background-color: #2F2F2F;
+  }
+
+  small{
+    font-size: 10pt;
+
+  }
